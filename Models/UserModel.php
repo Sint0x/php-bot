@@ -4,7 +4,7 @@ require_once 'BaseModel.php';
 
 class UserModel extends BaseModel
 {
-    public $id = null;
+    public $id = false;
     public $telegram_id;
 
 

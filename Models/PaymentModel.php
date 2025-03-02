@@ -4,7 +4,7 @@ require_once 'BaseModel.php';
 
 class PaymentModel extends BaseModel
 {
-    public $id = null;
+    public $id = false;
     public $user_id;
     public $amount;
 
